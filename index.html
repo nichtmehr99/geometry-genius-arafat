@@ -81,6 +81,27 @@
                         </div>
                     </div>
                 </div>
+                <!-- Rhombus Card -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="images/parallelogram.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Parallelogram</h2>
+                        <p>Area (A) = b X h </p>
+                        <p>
+                            <!-- Parallelogram Base -->
+                            <input id="parallelogram-base" class="text-xl border w-20 px-2 bg-gray-200"
+                                placeholder="base" type="text"><span class="ml-2 mr-2">cm</span>
+                            <!-- Parallelogram Height  -->
+                            <input id="parallelogram-height" class="text-xl border w-20 px-2 bg-gray-200"
+                                placeholder="height" type="text"><span class="ml-2">cm</span>
+                        </p>
+                        <p>Area :<span class="font-bold" id="parallelogram-area">0</span>cm<sup>2</sup> </p>
+                        <div class="card-actions ">
+                            <button onclick="calculateParallelogramArea()"
+                                class="btn btn-primary w-full text-xl">Calculate</button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <!-- Area Container -->
